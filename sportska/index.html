@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RK Sedmerac Karlovac – rukometni klub za djecu i mlade</title>
+  <meta name="description" content="Rukometni klub Sedmerac Karlovac: škola rukometa i natjecateljske ekipe do U15. Prvaci Hrvatske U11 2025. Upisi su otvoreni.">
+  <meta name="theme-color" content="#fec600">
+  <!-- TODO: privremeni pregled – maknuti noindex kad stranica ide uživo -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="hr_HR">
+  <meta property="og:title" content="RK Sedmerac Karlovac">
+  <meta property="og:description" content="Rukometni klub za djecu i mlade iz Karlovca. Prvaci Hrvatske U11 2025.">
+  <link rel="icon" href="../assets/img/grb.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="preload" href="../assets/fonts/anton-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../assets/fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/sportska.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="js/sportska.js" defer></script>
+  <!-- TODO: kad stranica dobije domenu, dodati "url" i apsolutnu adresu loga -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsOrganization",
+    "name": "Rukometni klub Sedmerac Karlovac",
+    "alternateName": "RK Sedmerac Karlovac",
+    "sport": "Rukomet",
+    "foundingDate": "2018",
+    "telephone": "+38598797760",
+    "email": "sedmerac.karlovac@gmail.com",
+    "logo": "../assets/img/grb.svg",
+    "sameAs": ["https://www.facebook.com/rksedmerackarlovac/"],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Karlovac",
+      "addressCountry": "HR"
+    }
+  }
+  </script>
+</head>
+<body>
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <defs>
+      <!-- Kraj rukometnog terena (mjere u decimetrima): gol-crta, 6 m, isprekidana 9 m, oznaka 7 m -->
+      <g id="court-lines" fill="none" stroke="currentColor" style="stroke-width: var(--court-w, 2px)">
+        <path d="M0 110H200" vector-effect="non-scaling-stroke"/>
+        <path d="M25 110A60 60 0 0 1 85 50H115A60 60 0 0 1 175 110" vector-effect="non-scaling-stroke"/>
+        <path d="M-5 110A90 90 0 0 1 85 20H115A90 90 0 0 1 205 110" vector-effect="non-scaling-stroke" style="stroke-dasharray: var(--court-dash, 14 10)"/>
+        <path d="M98.5 70H101.5" vector-effect="non-scaling-stroke"/>
+        <path d="M85 110V118H115V110" vector-effect="non-scaling-stroke"/>
+        <path d="M95 40H105" vector-effect="non-scaling-stroke" style="stroke: var(--court-mark, #e30613); stroke-width: var(--court-mark-w, 6px)"/>
+      </g>
+    </defs>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m7 4 13 8-13 8V4z"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#sadrzaj">Preskoči na sadržaj</a>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="RK Sedmerac Karlovac – početna">
+        <img src="../assets/img/grb.svg" alt="" width="42" height="44">
+        <span class="brand-text"><strong>Sedmerac</strong><small>Rukometni klub · Karlovac</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" data-nav-toggle>
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Izbornik</span>
+      </button>
+      <nav id="nav" class="nav" aria-label="Glavna navigacija">
+        <ul>
+          <li><a href="#uspjesi">Uspjesi</a></li>
+          <li><a href="#momcadi">Momčadi</a></li>
+          <li><a href="#klub">Klub</a></li>
+          <li><a href="#novosti">Novosti</a></li>
+          <li><a href="#roditelji">Roditelji</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+        <a class="btn btn-red" href="#upisi">Upiši se</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="sadrzaj">
+    <section class="hero" id="top" aria-labelledby="hero-naslov">
+      <svg class="hero-court" viewBox="0 0 200 120" preserveAspectRatio="xMidYMax meet" aria-hidden="true" focusable="false">
+        <use href="#court-lines"/>
+      </svg>
+      <span class="hero-seven" aria-hidden="true">7</span>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker"><span class="mark" aria-hidden="true"></span>RK Sedmerac Karlovac · od 2018.</p>
+          <h1 id="hero-naslov">Zabij svoj <span class="h1-mark">prvi gol.</span></h1>
+          <p class="hero-lead">Rukomet za djecu od prvih razreda osnovne škole do kategorije U15. Treniraj u klubu prvaka Hrvatske U11 – predznanje nije potrebno.</p>
+          <div class="hero-actions">
+            <a class="btn btn-red btn-lg" href="#upisi">Upiši se <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn-outline btn-lg" href="tel:+38598797760"><svg class="icon"><use href="#i-phone"/></svg> 098 797 760</a>
+          </div>
+          <p class="hero-note"><span class="pulse" aria-hidden="true"></span> Upisi za sezonu 2026./27. su otvoreni</p>
+        </div>
+        <div class="hero-visual">
+          <figure class="duo hero-photo">
+            <img src="../assets/img/slavlje-gol.jpg" alt="Mladi rukometaši RK Sedmerac slave ispred gola" width="466" height="290" fetchpriority="high">
+          </figure>
+          <p class="sticker"><span>Prvaci Hrvatske</span> <strong>U11 · 2025.</strong></p>
+          <img class="hero-crest" src="../assets/img/grb.svg" alt="" width="96" height="101">
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Klub u brojkama" data-ticker>
+      <div class="ticker-viewport">
+        <ul class="ticker-track">
+          <li>Prvaci Hrvatske U11 · 2025.</li>
+          <li>100+ mladih članova</li>
+          <li>Od 2018. u Karlovcu</li>
+          <li>Mini · U11 · U13 · U15</li>
+          <li>Upisi 2026./27. otvoreni</li>
+          <li>Ljetni kamp: 53 djece</li>
+        </ul>
+        <ul class="ticker-track" aria-hidden="true">
+          <li>Prvaci Hrvatske U11 · 2025.</li>
+          <li>100+ mladih članova</li>
+          <li>Od 2018. u Karlovcu</li>
+          <li>Mini · U11 · U13 · U15</li>
+          <li>Upisi 2026./27. otvoreni</li>
+          <li>Ljetni kamp: 53 djece</li>
+        </ul>
+      </div>
+      <button class="ticker-toggle" type="button" aria-pressed="false" data-ticker-toggle>
+        <svg class="icon"><use href="#i-pause"/></svg>
+        <span class="visually-hidden">Zaustavi traku</span>
+      </button>
+    </section>
+
+    <section class="section section-ink on-dark" id="uspjesi" aria-labelledby="uspjesi-naslov">
+      <div class="container champs">
+        <div class="champs-copy" data-reveal>
+          <p class="kicker kicker-yellow"><span class="mark" aria-hidden="true"></span>01 · Uspjeh sezone 2024./25.</p>
+          <h2 id="uspjesi-naslov">Prvaci <span class="text-yellow">Hrvatske</span> U11</h2>
+          <p>U svibnju 2025. naši su mladi rukometaši na završnom turniru 1. HRL U11 u Poreču osvojili naslov prvaka Hrvatske. U polufinalu su svladali Metalac, a u finalu Sesvete. Kristijan Ljubanović proglašen je najboljim trenerom turnira.</p>
+          <ul class="honours">
+            <li><svg class="icon"><use href="#i-star"/></svg> Najuspješniji klub 20. Međunarodnog otvorenog prvenstva Karlovca u mini i super mini rukometu (2022.)</li>
+            <li><svg class="icon"><use href="#i-star"/></svg> Prva mjesta na 1. turniru mini rukometa u Svetoj Nedelji (2022.)</li>
+          </ul>
+          <a class="link-arrow" href="https://hrs.hr/2025/05/30/zavrsnica-1-hrl-u11-m-sedmerac-karlovac-osvojio-naslov-prvaka-hrvatske/" target="_blank" rel="noopener">Izvještaj na hrs.hr <svg class="icon"><use href="#i-external"/></svg></a>
+        </div>
+        <div class="champs-board" data-reveal>
+          <div class="scoreboard" role="group" aria-label="Finale 1. HRL U11: Sedmerac Karlovac – Sesvete 19:14">
+            <p class="sb-meta"><span class="sb-chip">Finale</span><span>1. HRL U11</span><span>Poreč · svibanj 2025.</span></p>
+            <div class="sb-main">
+              <div class="sb-team">
+                <img src="../assets/img/grb.svg" alt="" width="64" height="67">
+                <span>Sedmerac Karlovac</span>
+              </div>
+              <p class="sb-score"><span class="win">19</span><span class="colon">:</span><span>14</span></p>
+              <div class="sb-team">
+                <span class="sb-badge" aria-hidden="true">S</span>
+                <span>Sesvete</span>
+              </div>
+            </div>
+            <dl class="sb-rows">
+              <div><dt>Polufinale</dt><dd>Sedmerac Karlovac – Metalac <strong>26:13</strong></dd></div>
+              <div><dt>Najbolji trener</dt><dd>Kristijan Ljubanović</dd></div>
+            </dl>
+          </div>
+          <figure class="duo duo-red champs-photo">
+            <img src="../assets/img/prvaci.jpg" alt="Igrači RK Sedmerac u crvenim dresovima slave u dvorani" width="464" height="253" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper" id="momcadi" aria-labelledby="momcadi-naslov">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="kicker"><span class="mark" aria-hidden="true"></span>02 · Momčadi</p>
+          <h2 id="momcadi-naslov">Nađi svoju ekipu</h2>
+          <p class="section-sub">Treniraš s vršnjacima, u grupi prema godištu – i napreduješ svojim tempom.</p>
+        </div>
+        <!-- TODO: godišta, termini, dvorane i treneri po kategoriji za sezonu 2026./27. -->
+        <ul class="groups">
+          <li class="group" data-reveal>
+            <h3><span class="group-code">Mini</span><span class="group-name">Škola rukometa</span></h3>
+            <p>Prvi koraci kroz igru: lopta, trčanje, skokovi i osnovne kretnje.</p>
+          </li>
+          <li class="group group-featured" data-reveal>
+            <h3><span class="group-code">U11</span><span class="group-name">Mlađi uzrast</span></h3>
+            <p class="group-badge"><svg class="icon"><use href="#i-star"/></svg> Prvaci Hrvatske</p>
+            <p>Prve lige i turniri. Prvaci Hrvatske u sezoni 2024./25.</p>
+          </li>
+          <li class="group" data-reveal>
+            <h3><span class="group-code">U13</span><span class="group-name">Srednji uzrast</span></h3>
+            <p>Tehnika, taktika i ligaška natjecanja Hrvatskog rukometnog saveza.</p>
+          </li>
+          <li class="group" data-reveal>
+            <h3><span class="group-code">U15</span><span class="group-name">Najstariji</span></h3>
+            <p>Najstarija kategorija u klubu: ozbiljniji trenažni proces i natjecanja.</p>
+          </li>
+        </ul>
+        <p class="schedule-note"><svg class="icon"><use href="#i-calendar"/></svg> <span>Raspored treninga za sezonu 2026./27. uskoro objavljujemo. Za termin probnog treninga <a href="tel:+38598797760">nazovite nas</a>.</span></p>
+      </div>
+    </section>
+
+    <section class="section section-yellow" id="klub" aria-labelledby="klub-naslov">
+      <div class="container klub">
+        <div class="klub-copy" data-reveal>
+          <p class="kicker"><span class="mark" aria-hidden="true"></span>03 · Klub</p>
+          <h2 id="klub-naslov">Klub koji radi samo s djecom</h2>
+          <p>RK Sedmerac osnovali su 2018. godine u Karlovcu Kristijan Ljubanović i Igor Bajac s idejom da djeci približe rukomet kroz kvalitetan stručni rad, igru i zajedništvo. Danas klub okuplja više od stotinu mladih rukometaša, od škole rukometa do kategorije U15.</p>
+          <p>Uz treninge i natjecanja idemo na turnire, a na kraju sezone i na tradicionalni ljetni kamp – 2026. u Segetu Donjem bilo je 53 djece i 6 trenera.</p>
+        </div>
+        <div class="klub-photos" data-reveal>
+          <figure class="duo">
+            <img src="../assets/img/ekipa-tribina.jpg" alt="Igrači RK Sedmerac slave s navijačima na tribini" width="472" height="262" loading="lazy">
+          </figure>
+          <figure class="duo duo-red">
+            <img src="../assets/img/turnir-medalje.jpg" alt="Djeca s medaljama i peharima nakon rukometnog turnira" width="430" height="222" loading="lazy">
+          </figure>
+        </div>
+      </div>
+      <div class="container why-wrap">
+        <h3 class="why-title" data-reveal>Zašto rukomet?</h3>
+        <ol class="why">
+          <li data-reveal>
+            <h4>Timski duh</h4>
+            <p>Uči suradnji i poštivanju suigrača i protivnika – i kako zajedno pobjeđivati i gubiti.</p>
+          </li>
+          <li data-reveal>
+            <h4>Zdravlje i kondicija</h4>
+            <p>Trčanje, skokovi i bacanja razvijaju koordinaciju, brzinu i snagu – kroz igru.</p>
+          </li>
+          <li data-reveal>
+            <h4>Prijateljstva</h4>
+            <p>U dvorani, na turnirima i kampovima nastaju prijateljstva koja traju.</p>
+          </li>
+          <li data-reveal>
+            <h4>Samopouzdanje</h4>
+            <p>Svaki gol, obrana i dobro dodavanje grade samopouzdanje i radne navike.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section-paper" id="novosti" aria-labelledby="novosti-naslov">
+      <div class="container">
+        <div class="section-head section-head-row" data-reveal>
+          <div>
+            <p class="kicker"><span class="mark" aria-hidden="true"></span>04 · Novosti</p>
+            <h2 id="novosti-naslov">Iz kluba</h2>
+          </div>
+          <a class="link-arrow" href="https://www.facebook.com/rksedmerackarlovac/" target="_blank" rel="noopener">Sve novosti na Facebooku <svg class="icon"><use href="#i-external"/></svg></a>
+        </div>
+        <!-- TODO: zamijeniti vanjskim poveznicama na vlastite objave kad se uvede CMS -->
+        <ul class="news">
+          <li data-reveal>
+            <article class="news-item">
+              <p class="news-date"><time datetime="2026-07-04"><span>4. 7.</span> 2026.</time></p>
+              <div class="news-body">
+                <p class="news-tag">Kamp</p>
+                <h3><a href="https://kaportal.net.hr/kas/1397612/vise-od-pedeset-djece-iz-rk-sedmerac-s-trenerima-boravilo-u-tradicionalnom-kampu-sportovi-igre-na-vodi-druzenje-i-animacijski-program/" target="_blank" rel="noopener">Više od 50 djece na tradicionalnom ljetnom kampu</a></h3>
+                <p>Na kraju sezone 53 djece i 6 trenera boravilo je na kampu u Segetu Donjem: treninzi, igre na vodi, druženje i animacijski program.</p>
+                <p class="news-source">Izvor: KAportal <svg class="icon"><use href="#i-external"/></svg></p>
+              </div>
+            </article>
+          </li>
+          <li data-reveal>
+            <article class="news-item">
+              <p class="news-date"><time datetime="2025-05-30"><span>30. 5.</span> 2025.</time></p>
+              <div class="news-body">
+                <p class="news-tag">Natjecanja</p>
+                <h3><a href="https://hrs.hr/2025/05/30/zavrsnica-1-hrl-u11-m-sedmerac-karlovac-osvojio-naslov-prvaka-hrvatske/" target="_blank" rel="noopener">Sedmerac Karlovac osvojio naslov prvaka Hrvatske</a></h3>
+                <p>U finalu završnice 1. HRL U11 u Poreču pobijedili smo Sesvete 19:14. Za najboljeg trenera turnira proglašen je Kristijan Ljubanović.</p>
+                <p class="news-source">Izvor: Hrvatski rukometni savez <svg class="icon"><use href="#i-external"/></svg></p>
+              </div>
+            </article>
+          </li>
+          <li data-reveal>
+            <article class="news-item">
+              <p class="news-date"><time datetime="2023-09-26"><span>26. 9.</span> 2023.</time></p>
+              <div class="news-body">
+                <p class="news-tag">Projekti</p>
+                <h3><a href="https://trend.com.hr/2023/09/26/rk-sedmerac-karlovac-provodi-znacajan-projekt-rukometno-sutra-za-djecu-od-1-do-4-razreda-osnovne-skole/" target="_blank" rel="noopener">Rukometno sutra: radionice za učenike od 1. do 4. razreda</a></h3>
+                <p>51 rukometna radionica u osnovnim školama Karlovca i okolice, uz radionice o prehrani i nenasilju, sufinancirano od Ministarstva turizma i sporta.</p>
+                <p class="news-source">Izvor: Trend <svg class="icon"><use href="#i-external"/></svg></p>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-ink on-dark" id="roditelji" aria-labelledby="roditelji-naslov">
+      <div class="container parents">
+        <div class="parents-intro" data-reveal>
+          <p class="kicker kicker-yellow"><span class="mark" aria-hidden="true"></span>05 · Za roditelje</p>
+          <h2 id="roditelji-naslov">Pitanja roditelja</h2>
+          <p>Odgovori na pitanja koja roditelji najčešće postavljaju prije upisa. Za sve ostalo tu smo na telefonu i e-mailu.</p>
+          <ul class="contact-quick">
+            <li><a href="tel:+38598797760"><svg class="icon"><use href="#i-phone"/></svg> 098 797 760</a></li>
+            <li><a href="mailto:sedmerac.karlovac@gmail.com"><svg class="icon"><use href="#i-mail"/></svg> sedmerac.karlovac@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="faq" data-reveal>
+          <details name="faq" open>
+            <summary>Od koje dobi dijete može početi trenirati?<svg class="icon"><use href="#i-plus"/></svg></summary>
+            <p>Djecu primamo od prvih razreda osnovne škole pa sve do kategorije U15. Grupe slažemo prema godištu, tako da svako dijete trenira s vršnjacima.</p>
+          </details>
+          <details name="faq">
+            <summary>Kako izgleda prvi trening?<svg class="icon"><use href="#i-plus"/></svg></summary>
+            <p>Dijete dolazi na probni trening u grupu svoje dobi, upoznaje trenera i suigrače te isproba rukomet – bez obveze upisa.</p>
+          </details>
+          <details name="faq">
+            <summary>Što dijete treba ponijeti?<svg class="icon"><use href="#i-plus"/></svg></summary>
+            <ul class="checks">
+              <li><svg class="icon"><use href="#i-check"/></svg> Sportsku odjeću – majicu i kratke hlače</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> Čiste tenisice za dvoranu</li>
+              <li><svg class="icon"><use href="#i-check"/></svg> Bočicu vode</li>
+            </ul>
+          </details>
+          <details name="faq">
+            <summary>Koliko iznosi članarina?<svg class="icon"><use href="#i-plus"/></svg></summary>
+            <!-- TODO: upisati mjesečni iznos, popuste za braću/sestre i način plaćanja -->
+            <p>Informacije o mjesečnoj članarini i načinu plaćanja dobit ćete pri upisu ili telefonom na 098 797 760.</p>
+          </details>
+          <details name="faq">
+            <summary>Je li potreban liječnički pregled?<svg class="icon"><use href="#i-plus"/></svg></summary>
+            <p>Za nastup na natjecanjima djeca trebaju važeći sportsko-liječnički pregled. Klub će vas uputiti kada i gdje ga obaviti.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-yellow upisi" id="upisi" aria-labelledby="upisi-naslov">
+      <svg class="upisi-court" viewBox="0 0 200 120" preserveAspectRatio="xMidYMax meet" aria-hidden="true" focusable="false"><use href="#court-lines"/></svg>
+      <div class="container enroll">
+        <div class="enroll-copy" data-reveal>
+          <p class="kicker"><span class="mark" aria-hidden="true"></span>06 · Upisi</p>
+          <h2 id="upisi-naslov">Upiši se!</h2>
+          <p class="enroll-lead">Upisi za sezonu 2026./27. su otvoreni, a predznanje nije potrebno. Ispunite prijavu i javit ćemo vam se s terminom probnog treninga.</p>
+          <ol class="steps">
+            <li><strong>Pošaljite prijavu</strong><span>Ime i godište djeteta te kontakt roditelja.</span></li>
+            <li><strong>Probni trening</strong><span>Dogovaramo termin u grupi prema godištu.</span></li>
+            <li><strong>Dobrodošli u ekipu</strong><span>Dijete postaje dio rukometne obitelji Sedmerca.</span></li>
+          </ol>
+        </div>
+        <!-- TODO: kad klub odabere platformu (Formspree, Relago, Sportimus…), slati prijavu izravno umjesto e-mailom -->
+        <form class="enroll-form" action="mailto:sedmerac.karlovac@gmail.com?subject=Prijava%20za%20probni%20trening" method="post" enctype="text/plain" data-enroll-form data-reveal>
+          <h3>Prijava za probni trening</h3>
+          <div class="field-row field-row-short">
+            <label class="field">
+              <span>Ime i prezime djeteta *</span>
+              <input name="dijete" type="text" autocomplete="off" required>
+            </label>
+            <label class="field">
+              <span>Godište *</span>
+              <input name="godiste" type="number" inputmode="numeric" min="2008" max="2022" placeholder="npr. 2016" required>
+            </label>
+          </div>
+          <label class="field">
+            <span>Ime i prezime roditelja *</span>
+            <input name="roditelj" type="text" autocomplete="name" required>
+          </label>
+          <div class="field-row">
+            <label class="field">
+              <span>Telefon *</span>
+              <input name="telefon" type="tel" autocomplete="tel" required>
+            </label>
+            <label class="field">
+              <span>E-mail</span>
+              <input name="email" type="email" autocomplete="email">
+            </label>
+          </div>
+          <label class="field">
+            <span>Poruka</span>
+            <textarea name="poruka" rows="3" placeholder="Npr. iskustvo u sportu, pitanja…"></textarea>
+          </label>
+          <label class="consent">
+            <input type="checkbox" name="privola" required>
+            <span>Pristajem da RK Sedmerac Karlovac upisane podatke koristi isključivo za kontakt u vezi s upisom. *</span>
+          </label>
+          <button class="btn btn-red btn-lg btn-block" type="submit">Pošalji prijavu <svg class="icon"><use href="#i-arrow"/></svg></button>
+          <p class="form-hint">Klikom se otvara vaš program za e-poštu s pripremljenom porukom.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="partners" aria-labelledby="partneri-naslov">
+      <div class="container partners-inner">
+        <div>
+          <h2 id="partneri-naslov" class="partners-title">Uz potporu</h2>
+          <p>Projekt <em>Rukometno sutra</em> (2023.) sufinanciran je sredstvima Ministarstva turizma i sporta Republike Hrvatske.</p>
+        </div>
+        <a class="btn btn-ink" href="mailto:sedmerac.karlovac@gmail.com?subject=Partnerstvo%20s%20RK%20Sedmerac">Postanite partner kluba <svg class="icon"><use href="#i-arrow"/></svg></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer on-dark" id="kontakt">
+    <div class="container">
+      <p class="footer-word" aria-hidden="true">Sedmerac</p>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="../assets/img/grb.svg" alt="" width="64" height="67" loading="lazy">
+          <p><strong>Rukometni klub Sedmerac Karlovac</strong> Rukomet za djecu i mlade od 2018.</p>
+        </div>
+        <div>
+          <h2 class="footer-title">Kontakt</h2>
+          <ul class="footer-contact">
+            <li><svg class="icon"><use href="#i-phone"/></svg><a href="tel:+38598797760">098 797 760</a></li>
+            <li><svg class="icon"><use href="#i-mail"/></svg><a href="mailto:sedmerac.karlovac@gmail.com">sedmerac.karlovac@gmail.com</a></li>
+            <li><svg class="icon"><use href="#i-pin"/></svg><span>Karlovac, Hrvatska</span></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="footer-title">Klub</h2>
+          <ul class="footer-links">
+            <li><a href="#uspjesi">Uspjesi</a></li>
+            <li><a href="#momcadi">Momčadi</a></li>
+            <li><a href="#novosti">Novosti</a></li>
+            <li><a href="#roditelji">Za roditelje</a></li>
+            <li><a href="#upisi">Upisi</a></li>
+            <!-- TODO: stranica s dokumentima (statut, izvješća, obrasci) i pravila privatnosti -->
+            <li><span class="muted">Dokumenti (uskoro)</span></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="footer-title">Pratite nas</h2>
+          <a class="social" href="https://www.facebook.com/rksedmerackarlovac/" target="_blank" rel="noopener"><svg class="icon"><use href="#i-facebook"/></svg> Facebook</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> RK Sedmerac Karlovac · OIB 26606370793</p>
+        <!-- TODO: privremeno – poveznica na usporedbu prijedloga dizajna -->
+        <p><a href="../prijedlozi/">Svi prijedlozi dizajna</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="mobile-cta" data-mobile-cta>
+    <a class="btn btn-outline-yellow" href="tel:+38598797760"><svg class="icon"><use href="#i-phone"/></svg> Nazovi</a>
+    <a class="btn btn-red" href="#upisi">Upiši se</a>
+  </div>
+</body>
+</html>
